@@ -142,8 +142,6 @@ This is a very basic nginx configuration with a couple of blocks
 
 My nginx server going to listen on port 80
 
-The location / block specifies the URL path that should be routed to the upstream servers. The proxy_pass directive tells Nginx to forward incoming requests to the __“backend”__ upstream group we defined earlier.
-
 
 __Let's break down the configuration:__
 
